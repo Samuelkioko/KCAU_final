@@ -46,6 +46,11 @@ public class SplashActivity extends AppCompatActivity {
         imageHitech.setAlpha(v);
 
         kca.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(600).start();
+        motto.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(800).start();
+        powered.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(1000).start();
+        hitech.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(1200).start();
+        imageKca.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(1400).start();
+        imageHitech.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(1600).start();
 
         //progress bar
         progressBar=findViewById(R.id.progressBar);

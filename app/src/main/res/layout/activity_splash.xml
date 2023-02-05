@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/imgKca"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396"
+        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/logo" />
 
     <ProgressBar
@@ -23,16 +23,17 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="0dp"
         android:layout_height="2dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginBottom="204dp"
         android:progressBackgroundTint="@color/white"
+        android:progressDrawable="@drawable/custom_progress_bg"
         android:scaleY="3"
-        android:layout_marginHorizontal="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintTop_toBottomOf="@+id/imgKca"
+        app:layout_constraintVertical_bias="0.257" />
 
     <TextView
         android:id="@+id/txtPowered"
@@ -74,7 +75,7 @@
         android:text="@string/Motto"
         android:textColor="@color/dark_blue"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/imgKca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtKca" />
