@@ -7,7 +7,7 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgKca"
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.578" />
 
     <TextView
-        android:id="@+id/powered"
+        android:id="@+id/txtPowered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.842" />
 
     <TextView
-        android:id="@+id/kca"
+        android:id="@+id/txtKca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -67,7 +67,7 @@
         />
 
     <TextView
-        android:id="@+id/motto"
+        android:id="@+id/txtMotto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -77,10 +77,10 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kca" />
+        app:layout_constraintTop_toBottomOf="@id/txtKca" />
 
     <ImageView
-        android:id="@+id/hitechlogo"
+        android:id="@+id/imgHitechlogo"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/hitech_logo_transparent_black_crop"
@@ -88,11 +88,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/powered"
+        app:layout_constraintTop_toBottomOf="@+id/txtPowered"
         app:layout_constraintVertical_bias="0.172" />
 
     <TextView
-        android:id="@+id/hitechke"
+        android:id="@+id/txtHitechtech"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hitechlogo"
+        app:layout_constraintTop_toBottomOf="@+id/imgHitechlogo"
         app:layout_constraintVertical_bias="0.22" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
