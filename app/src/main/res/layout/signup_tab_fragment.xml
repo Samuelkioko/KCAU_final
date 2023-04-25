@@ -2,23 +2,25 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
 
     <EditText
-        android:id="@+id/edt_email"
+        android:id="@+id/edt_emailSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="@string/emailAddress"
         android:background="@drawable/edit_text_bg"
+        android:hint="@string/emailAddress"
+        android:inputType="textEmailAddress"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
+        app:layout_constraintVertical_bias="0.107"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
@@ -35,13 +37,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edt_email"
+        app:layout_constraintTop_toBottomOf="@id/edt_emailSignUp"
         app:layout_constraintVertical_bias="0.025"
         app:layout_constraintWidth_percent=".8" />
 
 
     <EditText
-        android:id="@+id/edt_password"
+        android:id="@+id/edt_passwordSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/password"
@@ -68,12 +70,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_password"
+        app:layout_constraintTop_toBottomOf="@+id/edt_passwordSignUp"
         app:layout_constraintVertical_bias="0.025"
         app:layout_constraintWidth_percent=".8" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_signup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:letterSpacing=".3"
