@@ -55,6 +55,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0" />
 
+        <TextView
+            android:id="@+id/txt_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continueWith"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/fab_google"
+            app:layout_constraintEnd_toEndOf="@+id/tab_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.969" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_google"
             android:layout_width="wrap_content"
@@ -74,7 +86,7 @@
             android:layout_marginRight="10dp"
             android:backgroundTint="@color/white"
             android:elevation="35dp"
-            android:src="@drawable/google"
+            android:src="@drawable/facebook"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/fab_google"
             app:layout_constraintHorizontal_bias="1"
@@ -88,7 +100,7 @@
             android:layout_marginLeft="10dp"
             android:backgroundTint="@color/white"
             android:elevation="35dp"
-            android:src="@drawable/google"
+            android:src="@drawable/twitter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"

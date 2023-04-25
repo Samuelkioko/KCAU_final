@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     float v =0;
 
     ImageView imageView, logo;
-    TextView kcaUniversity;
+    TextView kcaUniversity, continueWith;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         logo = findViewById(R.id.img_kcaLogo);
         kcaUniversity = findViewById(R.id.txt_kca);
+        continueWith = findViewById(R.id.txt_continue);
 
         tabLayout.addTab(tabLayout.newTab().setText("Login"));
         tabLayout.addTab(tabLayout.newTab().setText("Sign Up"));
@@ -53,6 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         imageView.setTranslationY(300);
         logo.setTranslationY(300);
         kcaUniversity.setTranslationY(300);
+        continueWith.setTranslationY(300);
 
         fb.setAlpha(v);
         google.setAlpha(v);
@@ -61,6 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         imageView.setAlpha(v);
         logo.setAlpha(v);
         kcaUniversity.setAlpha(v);
+        continueWith.setAlpha(v);
 
         fb.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(600).start();
         google.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(800).start();
@@ -69,6 +72,7 @@ public class LoginActivity extends AppCompatActivity {
         imageView.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(200).start();
         logo.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(300).start();
         kcaUniversity.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(400).start();
+        continueWith.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(750).start();
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

@@ -5,10 +5,10 @@
     <string name="Powered">Powered by</string>
     <string name="Motto">Advancing Knowledge, Driving Change</string>
     <string name="hitech">Hitech Technologies</string>
-    <string name="version">V 1.3</string>
+    <string name="version">V 1.4</string>
     <string name="aboutApp">About</string>
     <string name="name">App Name : KCA UNIVERSITY</string>
-    <string name="hitechabout">Organisation: Hitech KE</string>
+    <string name="hitechabout">Organisation: Hitech Technologies</string>
     <string name="developerName">Developer : Samuel Kioko</string>
     <string name="versionabout">App Version : 1.3</string>
     <string name="contactEmail">App support: hitechke64@gmail.com</string>
@@ -46,6 +46,7 @@
     <string name="other">Other</string>
     <string name="gender">Gender</string>
     <string name="county">Select county</string>
+    <string name="continueWith">or continue with</string>
 
     <string-array name="campus">
         <item>Select Campus</item>
